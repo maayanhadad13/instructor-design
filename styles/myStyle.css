@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('../fonts/Segoe UI.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('../fonts/Segoe UI Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('../fonts/Segoe UI Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('../fonts/Segoe UI Bold Italic.woff') format('woff');
+}
+
+
+
+
+body {
+    direction: rtl;
+    background-color: #488183;
+}
+
+#container {
+    max-width: 944px;
+    width: 1640px;
+    margin: 0 auto;
+    max-height: 1080px;
+    font-family: Segoe UI;
+    background-image: url(img/businessman-dreamily-looks-window-office_1163-5404.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1170px;
+}
+
+    #container * {
+        font-family: Segoe UI;
+    }
+
+.maincontext {
+    margin-right: 50px;
+}
+
+    .maincontext p{
+        line-height: 30px;
+    }
+
+    .maincontext ul{
+        line-height: 20px;
+    }
+
+.form {
+    background-color: #488183;
+    width: 300px;
+    text-align: center;
+    margin: 20px 210px 30px;
+    padding: 5px 0;
+}
+      
+    .form label{
+        margin-bottom:10px;
+    }
+
+    .form p {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    form input{
+        margin-bottom: 6px;
+    }
+
+#send{
+    margin: 5px 0;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 15px 0;      
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#send:active{
+    background-color: grey;
+}
+
+#web {
+    width: 300px;
+    text-align: center;
+    margin: 0px 210px 30px;
+    padding: 5px 0;
+}
+     #web p{
+         margin-bottom: 10px;   
+     }
+
+#logo {
+    width: 150px;
+}
+
+
+#telem {
+    color: #488183;
+    font-size: 25px;
+}
